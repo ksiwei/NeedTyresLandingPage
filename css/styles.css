@@ -196,37 +196,69 @@ nav ul li a { color: rgba(255, 255, 255, 0.6); padding: 20px; display: block; bo
 nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decoration: none; }
 .indicator { position: absolute; right: 0 !important; }
 .pull { display: none; }
-.hero { background: url('../img/hero1.jpeg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 205px; height: auto; }
+.hero { background: url('../img/hero.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 205px; height: auto; }
 .hero p { color: #494949; font-size: 20px; font-weight:300;}
 .hero a { color: #fff; }
-.hero-play-btn { height: 99px; width: 99px; background: url('../img/play-btn.png') no-repeat center center; display: block; text-indent: -99999px; margin: 80px auto 140px; transition: all 1s ease; -moz-transition: all 1s ease; -webkit-transition: all 1s ease; -o-transition: all 1s ease; }
+.hero-play-btn { height: 99px; width: 99px; background: url('../img/play-btn.png') no-repeat center center; display: block; text-indent: -99999px; margin: 80px auto 180px; transition: all 1s ease; -moz-transition: all 1s ease; -webkit-transition: all 1s ease; -o-transition: all 1s ease; }
 .hero-play-btn:hover, .hero-play-btn:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
-
+.logo {
+  height: 24px;
+  margin-left: 20px;
+}
 input#signup-email {
   background-color: rgba(255, 255, 255, 0.32);
   outline: none;
   border: none;
-  height: 3.3rem;
-  line-height: 3.3rem;
+  height: 2rem;
+  line-height: 2rem;
   margin-bottom: 1em;
 }
 
-button.submit {
+#signup-label {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0;
+}
+
+input.submit {
   color: #FFF;
   background-color: #7ACCC8;
   border: none;
+  padding: 0;
   border-radius: 0px;
-  height: 3.3rem;
+  height: 2rem;
+  line-height: 2rem;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   font-size: 17px;
+  font-weight: 300;
 }
 
-button.submit:hover {
-  color: #FFF;
-  background-color: rgba(122, 204, 200, 0.31);
-  border: none;
+.signup-form #mc_embed_signup div.mce_inline_error {
+  margin: 0 0 1em 0;
+  padding: 0px;
+  background: none;
+  font-weight: bold;
+  z-index: 1;
+  display: block;
+  color: #fff;
+  clear: both;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  transition: all 1s ease; -moz-transition: all 1s ease; -webkit-transition: all 1s ease; -o-transition: all 1s ease; 
+}
+
+.response {
+  margin-top: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+input.submit:hover, input.submit:focus{
+  transform: scale(1.2,1.2); -webkit-transform: scale(1.2,1.2); -o-transform: scale(1.2,1.2); -moz-transform: scale(1.2,1.2); 
 }
 
 ::-webkit-input-placeholder {
@@ -249,7 +281,7 @@ button.submit:hover {
 }
 
 
-footer { background-color: #7accc8; padding: 26px 0 26px; }
+footer { background-color: #000000; padding: 0px; }
 footer p { color: #fff; line-height: 30px; }
 .footer-nav { list-style: none; padding: 0; }
 .footer-nav li a { display: block; color: #fff; padding: 5px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
